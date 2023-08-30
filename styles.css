@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  background: url("images/bg.jpg");
+  backdrop-filter: blur(0px);
+}
+
+form {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: white;
+  width: 300px;
+  height: 620px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+form h1 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.266);
+}
+
+input {
+  font-size: 20px;
+  width: 100px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+button {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.reset {
+  background-color: rgb(233, 77, 72);
+}
+.convert {
+  background-color: rgb(44, 121, 228);
+}
+select {
+  padding: 5px 10px;
+  font-size: 20px;
+  width: 150px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+button:hover {
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.681);
+}
+
+.results {
+  pointer-events: none;
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 40px;
+  font-weight: 400;
+  color: rgba(128, 128, 128, 0.568);
+}
+
+.resultsanswer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: grey;
+  font-weight: 400;
+  font-size: 22px;
+  width: 400px;
+}
+.results span {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bolder;
+  color: rgb(5, 5, 5);
+}
